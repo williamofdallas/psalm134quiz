@@ -89,7 +89,7 @@ def main():
             another_question = st.button("Another question")
 
             if user_choice == quiz_data['correct_answer'] or user_choice in quiz_data['acceptable_answers']:
-                st.success("Correct")
+                st.success(f"Correct: {quiz_data['correct_answer']}")
 
             else:
                 st.error("Incorrect")

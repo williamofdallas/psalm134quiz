@@ -4,8 +4,9 @@ import json
 
 WIPjson = open("psalmdict.json")
 psalm_dict = json.load(WIPjson)
+st.set_page_config(layout="wide")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 
 def get_question():
@@ -35,61 +36,55 @@ def get_question():
         'explanation': f'the correct answer is "{answer}"',
         'translations': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['translation'],
         'contexts': psalm_dict[str(random_verse)]['division'][str(random_division)]['translation'],
+        'line': question_division,
     }
-
     return data
-
 
 def initialize_session_state():
     session_state = st.session_state
     session_state.form_count = 0
     session_state.quiz_data = get_question()
 
-
 def main():
+    if 'form_count' not in st.session_state:
+        initialize_session_state()
+    if not st.session_state.quiz_data:
+        st.session_state.quiz_data = get_question()
 
-
+    quiz_data = st.session_state.quiz_data
     with col1:
         st.page_link("https://ko-fi.com/williamofdallas", label="Support this site & projects like it", icon="☕")
         st.title('Psalm 134')
-        st.markdown("1 Ecce nunc benedicite Dominum omnes servi:")
-        st.markdown("&nbsp;&nbsp;Qui statis in domo Domini,")
-        st.markdown("&nbsp;&nbsp;in atriis domus Dei nostri.")
-        st.markdown("2 In noctibus extollite manus vestras in sancta,")
-        st.markdown("&nbsp;&nbsp;et benedicite Dominum.")
-        st.markdown("3 Benedicat te Dominus ex Sion,")
-        st.markdown("&nbsp;&nbsp;qui fecit coelum et terram.")
 
+        for verse in psalm_dict:
+            psalm_line_count = 0
+            for line in psalm_dict[verse]['division']:
+                if psalm_line_count==0:
+                    if psalm_dict[verse]['division'][line]['text'] == quiz_data['line']:
+                        st.markdown(f"->***{psalm_dict[verse]['division'][line]['text']}***")
+                    else:
+                        st.markdown(f"{psalm_dict[verse]['division'][line]['text']}")
+                else:
+                    if psalm_dict[verse]['division'][line]['text'] == quiz_data['line']:
+                        st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->***{psalm_dict[verse]['division'][line]['text']}***")
+                    else:
+                        st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{psalm_dict[verse]['division'][line]['text']}")
+                psalm_line_count += 1
 
     with col2:
         st.markdown("")
         st.markdown("")
         st.markdown("")
-
         st.title('Quiz')
-
-        if 'form_count' not in st.session_state:
-            initialize_session_state()
-        if not st.session_state.quiz_data:
-            st.session_state.quiz_data = get_question()
-
-        quiz_data = st.session_state.quiz_data
-
         st.markdown(f"{quiz_data['question']}")
-
-
         user_choice = st.text_input("Answer", "")
-
-
         submitted = st.button("Submit your answer")
-
-
 
         if submitted:
             another_question = st.button("Another question")
 
             if user_choice == quiz_data['correct_answer'] or user_choice in quiz_data['acceptable_answers']:
-                st.success(f'Correct: "{quiz_data['correct_answer']}"')
+                st.success(f'Correct: "{quiz_data["correct_answer"]}"')
 
             else:
                 st.error("Incorrect")
@@ -98,8 +93,18 @@ def main():
                         st.markdown(f'This is not a good answer. {quiz_data["unacceptable_answers"][bad_guess]} A better answer is really "{quiz_data["correct_answer"]}."')
             st.markdown(f"{quiz_data['explanation']}")
 
-            for translation in quiz_data['translations']:
-                st.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{translation}: "{quiz_data["translations"][translation]}", as in "{dict(quiz_data["contexts"])[translation]}"')
+            with col3:
+                st.markdown("")
+                st.markdown("")
+                st.markdown("")
+
+                st.title('Review')
+                #st.markdown('#### Derivatives')
+
+                st.markdown('#### Other Translations')
+
+                for translation in quiz_data['translations']:
+                    st.markdown(f'**{translation}**: *{quiz_data["translations"][translation]}*, as in "{dict(quiz_data["contexts"])[translation]}"')
 
             with st.spinner("Calling the model for the next question"):
                 session_state = st.session_state
@@ -110,11 +115,5 @@ def main():
             else:
                 st.stop()
 
-
-
-
 if __name__ == '__main__':
     main()
-
-
-

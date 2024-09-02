@@ -86,7 +86,7 @@
     },
     "facio": {
         "meaning": "make",
-        "acceptable answers": ["do"],
+        "acceptable answers": ["do", "made"],
         "etymology": "",
         "derivatives": {},
         "part": "verb"

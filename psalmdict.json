@@ -32,7 +32,7 @@
                             "KJV": "behold"
                         },
                         "part": "interjection",
-                        "root": "",
+                        "root": "ecce",
                         "meaning": "behold",
                         "acceptable answers": [],
                         "derivative": "",
@@ -93,7 +93,7 @@
                             "KJV": "the Lord"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "dominus",
                         "meaning": "the lord",
                         "acceptable answers": [
                             "lord"
@@ -116,7 +116,7 @@
                             "KJV": "all ye"
                         },
                         "part": "adjective",
-                        "root": "omnes",
+                        "root": "omnis",
                         "meaning": "all you",
                         "acceptable answers": [
                             "y'all",
@@ -263,7 +263,7 @@
                             "KJV": "of the Lord"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "dominus",
                         "meaning": "of the Lord",
                         "acceptable answers": [
                             "of the lord",
@@ -300,7 +300,7 @@
                             "KJV": ""
                         },
                         "part": "preposition",
-                        "root": "",
+                        "root": "in",
                         "meaning": "in",
                         "acceptable answers": [],
                         "derivative": "",
@@ -317,7 +317,7 @@
                             "KJV": ""
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "atrium",
                         "meaning": "the courts",
                         "acceptable answers": [],
                         "unacceptable answers": {
@@ -342,7 +342,7 @@
                             "KJV": ""
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "domus",
                         "meaning": "home",
                         "acceptable answers": [
                             "house"
@@ -365,7 +365,7 @@
                             "KJV": ""
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "deus",
                         "meaning": "God",
                         "acceptable answers": [
                             "god"
@@ -388,7 +388,7 @@
                             "KJV": ""
                         },
                         "part": "adjective",
-                        "root": "",
+                        "root": "noster",
                         "meaning": "our",
                         "acceptable answers": [
                             "our"
@@ -438,7 +438,7 @@
                             "KJV": "by night"
                         },
                         "part": "prepositional phrase",
-                        "root": "",
+                        "root": "nox",
                         "meaning": "in the nights",
                         "acceptable answers": ["by night", "at night", "nightly", "at midnight"],
                         "derivative": "'nocturnal,' meaning 'done at night'",
@@ -455,7 +455,7 @@
                             "KJV": "Lift up"
                         },
                         "part": "verb",
-                        "root": "",
+                        "root": "extollo",
                         "meaning": "lift up",
                         "acceptable answers": [],
                         "derivative": "'Extol', which literally means 'to make high,' but more commonly is used 'to praise,' as in, you make a person higher by praising them.",
@@ -478,7 +478,7 @@
                             "KJV": "hands"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "manus",
                         "meaning": "hands",
                         "acceptable answers": [],
                         "unacceptable answers": {
@@ -504,7 +504,7 @@
                             "KJV": "your"
                         },
                         "part": "adjective",
-                        "root": "",
+                        "root": "vester",
                         "meaning": "your",
                         "acceptable answers": ["y'all's"],
                         "unacceptable answers": {
@@ -529,7 +529,7 @@
                             "KJV": "in the sanctuary"
                         },
                         "part": "prepositional phrase",
-                        "root": "",
+                        "root": "sanctus",
                         "meaning": "in the holy place",
                         "acceptable answers": [
                             "in the holy places"
@@ -562,7 +562,7 @@
                             "KJV": "and"
                         },
                         "part": "conjunction",
-                        "root": "",
+                        "root": "et",
                         "meaning": "and",
                         "acceptable answers": [
                             "&"
@@ -581,7 +581,7 @@
                             "KJV": "bless"
                         },
                         "part": "verb",
-                        "root": "",
+                        "root": "benedico",
                         "meaning": "bless",
                         "acceptable answers": [
                             "sing praises",
@@ -607,7 +607,7 @@
                             "KJV": "the Lord"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "dominus",
                         "meaning": "the Lord",
                         "acceptable answers": [
                             "Lord",
@@ -658,7 +658,7 @@
                             "KJV": "bless"
                         },
                         "part": "verb",
-                        "root": "",
+                        "root": "benedico",
                         "meaning": "bless",
                         "acceptable answers": [
                             "bless"
@@ -683,7 +683,7 @@
                             "KJV": "thee"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "tu",
                         "meaning": "thee",
                         "acceptable answers": [
                             "you"
@@ -706,7 +706,7 @@
                             "KJV": "The Lord"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "dominus",
                         "meaning": "the Lord",
                         "acceptable answers": [
                             "lord",
@@ -730,7 +730,7 @@
                             "KJV": "out of"
                         },
                         "part": "preposition",
-                        "root": "",
+                        "root": "ex",
                         "meaning": "out of",
                         "acceptable answers": [],
                         "derivative": "",
@@ -747,7 +747,7 @@
                             "KJV": "Zion"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "sion",
                         "meaning": "Sion",
                         "acceptable answers": [
                             "sion"
@@ -783,7 +783,7 @@
                             "KJV": "The Lord that"
                         },
                         "part": "pronoun",
-                        "root": "",
+                        "root": "qui",
                         "meaning": "who",
                         "acceptable answers": [
                             "who"
@@ -807,7 +807,7 @@
                             "KJV": "made"
                         },
                         "part": "verb",
-                        "root": "",
+                        "root": "facio",
                         "meaning": "made",
                         "acceptable answers": [
                             "made"
@@ -832,7 +832,7 @@
                             "KJV": "heaven"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "coelum",
                         "meaning": "heaven",
                         "acceptable answers": [
                             "heaven"
@@ -855,7 +855,7 @@
                             "KJV": "and"
                         },
                         "part": "conjunction",
-                        "root": "",
+                        "root": "et",
                         "meaning": "and",
                         "acceptable answers": [
                             "&",
@@ -875,7 +875,7 @@
                             "KJV": "earth"
                         },
                         "part": "noun",
-                        "root": "",
+                        "root": "terra",
                         "meaning": "earth",
                         "acceptable answers": [],
                         "derivative": "",

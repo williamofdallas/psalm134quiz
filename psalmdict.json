@@ -35,6 +35,7 @@
                         "root": "",
                         "meaning": "behold",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {}
                     },
                     "2": {
@@ -51,6 +52,7 @@
                         "root": "nunc",
                         "meaning": "now",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {
                             "modifies": "benedicite"
                         }
@@ -71,6 +73,7 @@
                         "acceptable answers": [
                             "bless"
                         ],
+                        "derivative": "",
                         "parse": {
                             "person": "2",
                             "number": "plural",
@@ -95,6 +98,7 @@
                         "acceptable answers": [
                             "lord"
                         ],
+                        "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
                         "parse": {
                             "case": "accusative",
                             "number": "singular",
@@ -121,6 +125,7 @@
                             "all you",
                             "all y'all"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "vocative",
                             "number": "plural",
@@ -142,6 +147,7 @@
                         "root": "servus",
                         "meaning": "servants",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {
                             "case": "vocative",
                             "number": "plural",
@@ -175,6 +181,7 @@
                         "root": "qui",
                         "meaning": "who",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {
                             "case": "nominative",
                             "number": "plural",
@@ -196,6 +203,7 @@
                         "root": "sto",
                         "meaning": "stand",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {
                             "person": "2",
                             "number": "plural",
@@ -218,6 +226,7 @@
                         "root": "in",
                         "meaning": "in",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {}
                     },
                     "4": {
@@ -236,6 +245,7 @@
                         "acceptable answers": [
                             "house"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "ablative",
                             "number": "singular",
@@ -259,6 +269,7 @@
                             "of the lord",
                             "of the lrod"
                         ],
+                        "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -292,6 +303,7 @@
                         "root": "",
                         "meaning": "in",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {}
                     },
                     "2": {
@@ -312,6 +324,7 @@
                             "court": "'Court' is singular. 'atriis' is plural.",
                             "the court": "'Court' is singular. 'atriis' is plural."
                         },
+                        "derivative": "literally the word 'atrium', in Roman architecture, the open central court with enclosed rooms on all sides. Analogous today to a vestibule, or in church architecture, perhaps to a narthex.",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -334,6 +347,7 @@
                         "acceptable answers": [
                             "house"
                         ],
+                        "derivative": "Where we get 'domestic', and 'domicile'",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -352,10 +366,11 @@
                         },
                         "part": "noun",
                         "root": "",
-                        "meaning": "god",
+                        "meaning": "God",
                         "acceptable answers": [
                             "god"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -378,6 +393,7 @@
                         "acceptable answers": [
                             "our"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -424,7 +440,8 @@
                         "part": "prepositional phrase",
                         "root": "",
                         "meaning": "in the nights",
-                        "acceptable answers": [],
+                        "acceptable answers": ["by night", "at night", "nightly", "at midnight"],
+                        "derivative": "'nocturnal,' meaning 'done at night'",
                         "parse": {}
                     },
                     "2": {
@@ -441,6 +458,7 @@
                         "root": "",
                         "meaning": "lift up",
                         "acceptable answers": [],
+                        "derivative": "'Extol', which literally means 'to make high,' but more commonly is used 'to praise,' as in, you make a person higher by praising them.",
                         "parse": {
                             "person": "2",
                             "number": "plural",
@@ -468,6 +486,7 @@
                             "the hand": "'hand' is singular. 'manus' is plural.",
                             "your hand": "'hand' is singular. 'manus' is plural."
                         },
+                        "derivative": "'Manual,' meaning 'with the hands'",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -491,6 +510,7 @@
                         "unacceptable answers": {
                             "thy": "'thy' is singular. 'vestras' is plural."
                         },
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -514,6 +534,7 @@
                         "acceptable answers": [
                             "in the holy places"
                         ],
+                        "derivative": "",
                         "parse": {
                         }
                     }
@@ -546,6 +567,7 @@
                         "acceptable answers": [
                             "&"
                         ],
+                        "derivative": "We get the ampersand from 'et'-- which is really just those two letters squished together: &",
                         "parse": {}
                     },
                     "2": {
@@ -565,6 +587,7 @@
                             "sing praises",
                             "give blessings"
                         ],
+                        "derivative": "From 'bene' ('good') + 'dico' ('speak'), as in 'benediction'-- a good word, a blessing.",
                         "parse": {
                             "person": "2",
                             "number": "plural",
@@ -591,6 +614,7 @@
                             "lord",
                             "the lord"
                         ],
+                        "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -639,6 +663,7 @@
                         "acceptable answers": [
                             "bless"
                         ],
+                        "derivative": "From 'bene' ('good') + 'dico' ('speak'), as in 'benediction'-- a good word, a blessing.",
                         "parse": {
                             "person": "3",
                             "number": "singular",
@@ -663,6 +688,7 @@
                         "acceptable answers": [
                             "you"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -686,6 +712,7 @@
                             "lord",
                             "the lord"
                         ],
+                        "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -706,6 +733,7 @@
                         "root": "",
                         "meaning": "out of",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {}
                     },
                     "5": {
@@ -724,6 +752,7 @@
                         "acceptable answers": [
                             "sion"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -759,6 +788,7 @@
                         "acceptable answers": [
                             "who"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -782,6 +812,7 @@
                         "acceptable answers": [
                             "made"
                         ],
+                        "derivative": "",
                         "parse": {
                             "person": "3",
                             "number": "singular",
@@ -806,6 +837,7 @@
                         "acceptable answers": [
                             "heaven"
                         ],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",
@@ -829,6 +861,7 @@
                             "&",
                             "and"
                         ],
+                        "derivative": "We get the ampersand from 'et'-- which is really just those two letters squished together: &",
                         "parse": {}
                     },
                     "5": {
@@ -845,6 +878,7 @@
                         "root": "",
                         "meaning": "earth",
                         "acceptable answers": [],
+                        "derivative": "",
                         "parse": {
                             "case": "",
                             "number": "",

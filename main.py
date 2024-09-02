@@ -4,9 +4,12 @@ import json
 
 WIPjson = open("psalmdict.json")
 psalm_dict = json.load(WIPjson)
+
+vocab_dict = json.load(open("vocab.json"))
+
 st.set_page_config(layout="wide")
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4= st.columns(4)
 
 def get_question():
 
@@ -19,8 +22,10 @@ def get_question():
     random_word = random.randint(1,words)
     question_word = psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['text']
     question_division = psalm_dict[str(random_verse)]['division'][str(random_division)]['text']
-    question = f'What does "{question_word}" mean, as in "{question_division}"?'
-    answer = psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['meaning']
+    question = f'What is the general meaning of the word "{question_word}", as in "{question_division}"?'
+    root = psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['root']
+    answer = vocab_dict[root]['meaning']
+
 
     if 'unacceptable answers' in psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]:
         unacceptable_answers = psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['unacceptable answers']
@@ -30,13 +35,15 @@ def get_question():
     data = {
         'question': question,
         'correct_answer': answer,
-        'acceptable_answers': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['acceptable answers'],
+        'acceptable_answers': vocab_dict[root]['acceptable answers'],
+        'root': root,
         'unacceptable_answers': unacceptable_answers,
         'explanation': f'the correct answer is "{answer}"',
         'translations': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['translation'],
         'contexts': psalm_dict[str(random_verse)]['division'][str(random_division)]['translation'],
         'line': question_division,
-        'derivative': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['derivative'],
+        'derivative': vocab_dict[root]['derivatives'],
+        'etymology': vocab_dict[root]['etymology']
     }
     return data
 
@@ -95,7 +102,7 @@ def main():
 
             another_question = st.button("Another question")
 
-            if user_choice.lower() == quiz_data['correct_answer'] or user_choice.lower() in quiz_data['acceptable_answers']:
+            if user_choice.lower() == quiz_data['correct_answer'].lower() or user_choice.lower() in quiz_data['acceptable_answers']:
                 st.success(f'Correct: "{quiz_data["correct_answer"]}"')
 
             else:
@@ -103,19 +110,28 @@ def main():
                 for bad_guess in quiz_data['unacceptable_answers']:
                     if user_choice == bad_guess:
                         st.markdown(f'This is not a good answer. {quiz_data["unacceptable_answers"][bad_guess]} A better answer is really "{quiz_data["correct_answer"]}."')
-            st.markdown(f"{quiz_data['explanation']}")
 
             with col3:
                 st.markdown("")
                 st.markdown("")
                 st.markdown("")
 
-                st.title('Review')
+                st.title(quiz_data['root'].capitalize())
+                st.markdown(quiz_data['correct_answer'].capitalize())
+
+                if quiz_data["etymology"]:
+                    st.markdown('#### Etymology')
+                    st.markdown(quiz_data['etymology'])
                 if quiz_data["derivative"]:
                     st.markdown('#### Derivatives')
-                    st.markdown(f'{quiz_data["derivative"]}')
+                    for derivative in quiz_data["derivative"]:
+                        st.markdown(f'**{derivative}**: {quiz_data["derivative"][derivative]}')
 
-                st.markdown('#### Other Translations')
+            with col4:
+                st.markdown("")
+                st.markdown("")
+                st.markdown("")
+                st.title('Translations')
 
                 for translation in quiz_data['translations']:
                     st.markdown(f'**{translation}**: *{quiz_data["translations"][translation]}*, as in "{dict(quiz_data["contexts"])[translation]}"')

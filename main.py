@@ -8,7 +8,6 @@ st.set_page_config(layout="wide")
 
 col1, col2, col3 = st.columns(3)
 
-
 def get_question():
 
     verses = len(psalm_dict)
@@ -45,6 +44,15 @@ def initialize_session_state():
     session_state.form_count = 0
     session_state.quiz_data = get_question()
 
+if 'something' not in st.session_state:
+    st.session_state.something = ''
+
+def submit():
+    st.session_state.something = st.session_state.widget
+    st.session_state.widget = ''
+
+
+
 def main():
     if 'form_count' not in st.session_state:
         initialize_session_state()
@@ -77,10 +85,13 @@ def main():
         st.markdown("")
         st.title('Quiz')
         st.markdown(f"{quiz_data['question']}")
-        user_choice = st.text_input("Answer", "")
-        submitted = st.button("Submit your answer")
+        st.text_input('Answer', key='widget', on_change=submit)
 
-        if submitted:
+        if st.session_state.something:
+            st.write(f'Last submission: {st.session_state.something}')
+            user_choice = st.session_state.something
+            st.session_state.something = ''
+
             another_question = st.button("Another question")
 
             if user_choice == quiz_data['correct_answer'] or user_choice in quiz_data['acceptable_answers']:

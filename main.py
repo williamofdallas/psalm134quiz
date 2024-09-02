@@ -36,6 +36,7 @@ def get_question():
         'translations': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['translation'],
         'contexts': psalm_dict[str(random_verse)]['division'][str(random_division)]['translation'],
         'line': question_division,
+        'derivative': psalm_dict[str(random_verse)]['division'][str(random_division)]['word'][str(random_word)]['derivative'],
     }
     return data
 
@@ -88,7 +89,7 @@ def main():
         st.text_input('Answer', key='widget', on_change=submit)
 
         if st.session_state.something:
-            st.write(f'Last submission: {st.session_state.something}')
+            st.write(f'Your answer: {st.session_state.something}')
             user_choice = st.session_state.something
             st.session_state.something = ''
 
@@ -110,7 +111,9 @@ def main():
                 st.markdown("")
 
                 st.title('Review')
-                #st.markdown('#### Derivatives')
+                if quiz_data["derivative"]:
+                    st.markdown('#### Derivatives')
+                    st.markdown(f'{quiz_data["derivative"]}')
 
                 st.markdown('#### Other Translations')
 

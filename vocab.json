@@ -86,7 +86,7 @@
     },
     "facio": {
         "meaning": "make",
-        "acceptable answers": ["do", "made"],
+        "acceptable answers": ["do"],
         "etymology": "",
         "derivatives": {},
         "part": "verb"
@@ -128,7 +128,7 @@
     "sion": {
         "meaning": "Sion",
         "acceptable answers": ["Zion", "Syon"],
-        "etymology": "",
+        "etymology": "A synonym for Jerusalem, as well as for the Land of Israel as a whole.",
         "derivatives": {},
         "part": "noun"
     },

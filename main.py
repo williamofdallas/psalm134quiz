@@ -3,7 +3,7 @@ import random
 import json
 
 WIPjson = open("psalmdict.json")
-psalm_dict = json.load(WIPjson)
+psalm_dict = json.load(WIPjson)["134"]
 
 vocab_dict = json.load(open("vocab.json"))
 

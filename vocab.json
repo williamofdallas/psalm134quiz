@@ -1,0 +1,200 @@
+{
+    "domus": {
+        "meaning": "home",
+        "acceptable answers": ["house"],
+        "etymology": "",
+        "derivatives": {
+            "domestic": "relating to the running of a home",
+            "domicile": "a person's residence or home"
+        },
+        "part": "noun"
+    },
+    "coelum": {
+        "meaning": "heaven",
+        "acceptable answers": ["sky"],
+        "etymology": "",
+        "derivatives": {
+            "celestial": "heavenly"
+        },
+        "part": "noun"
+    },
+    "benedico": {
+        "meaning": "bless",
+        "acceptable answers": ["praise"],
+        "etymology": "From 'bene' ('good') + 'dico' ('speak')",
+        "derivatives": {
+            "benediction": "a blessing"
+        },
+        "part": "verb"
+    },
+    "dominus": {
+        "meaning": "lord",
+        "acceptable answers": [],
+        "etymology": "Likely from 'domo' ('house'), as in, 'of the house.'",
+        "derivatives": {
+            "dominion" : "sovereignty, control, authority"
+        },
+        "part": "noun"
+    },
+    "et": {
+        "meaning": "and",
+        "acceptable answers": ["&"],
+        "etymology": "",
+        "derivatives": {
+            "&": "the combination of the letters 'e' and 't'"
+        },
+        "part": "conjunction"
+    },
+    "atrium": {
+        "meaning": "court",
+        "acceptable answers": ["atrium"],
+        "etymology": "",
+        "derivatives": {
+            "atrium": "in Roman architecture, the open central court with enclosed rooms on all sides. Analogous today to a vestibule, or in church architecture, perhaps to a narthex."
+        },
+        "part": "noun"
+    },
+    "manus": {
+        "meaning": "hand",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {
+            "manual" : "relating to or done with the hands"
+        },
+        "part": "noun"
+    },
+    "deus": {
+        "meaning": "God",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "noun"
+    },
+    "sanctus": {
+        "meaning": "holy",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "adjective"
+    },
+    "tu": {
+        "meaning": "you",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "pronoun"
+    },
+    "facio": {
+        "meaning": "make",
+        "acceptable answers": ["do"],
+        "etymology": "",
+        "derivatives": {},
+        "part": "verb"
+    },
+    "extollo": {
+        "meaning": "lift up",
+        "acceptable answers": ["lift", "raise", "raise up", "elevate", "erect", "make high"],
+        "etymology": "From 'ex-' (out of) + 'tollō'.",
+        "derivatives": {
+            "extol": "literally, 'to make high,' but more commonly is used 'to praise,' as in, you make a person higher by praising them."
+        },
+        "part": "verb"
+    },
+    "terra": {
+        "meaning": "earth",
+        "acceptable answers": ["ground", "land"],
+        "etymology": "",
+        "derivatives": {
+            "terrestrial": "of, on, or relating to the earth or dry land"
+        },
+        "part": "noun"
+    },
+    "ecce": {
+        "meaning": "behold",
+        "acceptable answers": ["lo"],
+        "etymology": "Probably from 'ec-,' a prefix denoting intense feeling, and '-ce,' a suffix denoting a physical place",
+        "derivatives": {},
+        "part": "interjection"
+    },
+    "sto": {
+        "meaning": "stand",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {
+            "static": "lacking in movement, action, or change"
+        },
+        "part": "verb"
+    },
+    "sion": {
+        "meaning": "Sion",
+        "acceptable answers": ["Zion", "Syon"],
+        "etymology": "",
+        "derivatives": {},
+        "part": "noun"
+    },
+    "vester": {
+        "meaning": "your",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "adjective"
+    },
+    "in": {
+        "meaning": "in",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "preposition"
+    },
+    "servus": {
+        "meaning": "servant",
+        "acceptable answers": ["slave"],
+        "etymology": "",
+        "derivatives": {},
+        "part": ""
+    },
+    "noster": {
+        "meaning": "our",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "adjective"
+    },
+    "nunc": {
+        "meaning": "now",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "adverb"
+    },
+    "nox": {
+        "meaning": "night",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {
+            "nocturnal": "done, occurring, or active at night"
+        },
+        "part": "noun"
+    },
+    "ex": {
+        "meaning": "out of",
+        "acceptable answers": ["out"],
+        "etymology": "",
+        "derivatives": {},
+        "part": "preposition"
+    },
+    "qui": {
+        "meaning": "who",
+        "acceptable answers": ["which"],
+        "etymology": "",
+        "derivatives": {},
+        "part": "pronoun"
+    },
+    "omnis": {
+        "meaning": "all",
+        "acceptable answers": [],
+        "etymology": "",
+        "derivatives": {},
+        "part": "adjective"
+    }
+}

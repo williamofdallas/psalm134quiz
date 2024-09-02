@@ -117,7 +117,13 @@ def main():
                 st.markdown("")
 
                 st.title(quiz_data['root'].capitalize())
-                st.markdown(quiz_data['correct_answer'].capitalize())
+                answer_display = quiz_data['correct_answer'].capitalize()
+
+                if quiz_data['acceptable_answers']:
+                    for answer in quiz_data['acceptable_answers']:
+                        answer_display = answer_display + ", " + answer
+                st.markdown(answer_display)
+
 
                 if quiz_data["etymology"]:
                     st.markdown('#### Etymology')

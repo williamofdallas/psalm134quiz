@@ -1,200 +1,901 @@
 {
-    "domus": {
-        "meaning": "home",
-        "acceptable answers": ["house"],
-        "etymology": "",
-        "derivatives": {
-            "domestic": "relating to the running of a home",
-            "domicile": "a person's residence or home"
+    "134": {
+        "1": {
+            "text": "Ecce nunc benedicite Dominum omnes servi:\nQui statis in domo Domini,\nin atriis domus Dei nostri.\n",
+            "translation": {
+                "duay": "Behold now bless ye the Lord, all ye servants of the Lord: Who stand in the house of the Lord,",
+                "coverdale": "Behold now, praise the LORD, all ye servants of the LORD; Ye that by night stand\n in the house of the LORD,",
+                "new coverdale": "Behold now, praise the Lord, all you servants of the Lord, You that stand by night in the house of the Lord,",
+                "knox": "Come, then, praise the Lord, all you that are the Lord\u2019s servants; you that wait on the Lord\u2019s house",
+                "1979": "Behold now, bless the LORD, all you servants of the LORD, \nyou that stand by night in the house of the LORD.",
+                "KJV": "Behold, bless ye the Lord, all ye servants of the Lord, which by night stand in the house of the Lord."
+            },
+            "division": {
+                "1": {
+                    "text": "Ecce nunc benedicite Dominum omnes servi:",
+                    "translation": {
+                        "duay": "Behold now bless ye the Lord, all ye servants of the Lord:",
+                        "coverdale": "Behold now, praise the LORD, all ye servants of the LORD;",
+                        "new coverdale": "Behold now, praise the Lord, all you servants of the Lord,",
+                        "knox": "Come, then, praise the Lord, all you that are the Lord\u2019s servants;",
+                        "1979": "Behold now, bless the LORD, all you servants of the LORD,",
+                        "KJV": "Behold, bless ye the Lord, all ye servants of the Lord,"
+                    },
+                    "word": {
+                        "1": {
+                            "text": "ecce",
+                            "translation": {
+                                "duay": "behold",
+                                "coverdale": "behold",
+                                "new coverdale": "behold",
+                                "knox": "come",
+                                "1979": "behold",
+                                "KJV": "behold"
+                            },
+                            "part": "interjection",
+                            "root": "ecce",
+                            "meaning": "behold",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {}
+                        },
+                        "2": {
+                            "text": "nunc",
+                            "translation": {
+                                "duay": "now",
+                                "coverdale": "now",
+                                "new coverdale": "now",
+                                "knox": "then",
+                                "1979": "now",
+                                "KJV": ""
+                            },
+                            "part": "adverb",
+                            "root": "nunc",
+                            "meaning": "now",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {
+                                "modifies": "benedicite"
+                            }
+                        },
+                        "3": {
+                            "text": "benedicite",
+                            "translation": {
+                                "duay": "bless ye",
+                                "coverdale": "praise",
+                                "new coverdale": "praise",
+                                "knox": "praise",
+                                "1979": "bless",
+                                "KJV": "bless"
+                            },
+                            "part": "verb",
+                            "root": "benedico",
+                            "meaning": "praise",
+                            "acceptable answers": [
+                                "bless"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "person": "2",
+                                "number": "plural",
+                                "tense": "present",
+                                "mood": "imperative",
+                                "voice": "active"
+                            }
+                        },
+                        "4": {
+                            "text": "dominum",
+                            "translation": {
+                                "duay": "the Lord",
+                                "coverdale": "the LORD",
+                                "new coverdale": "the Lord",
+                                "knox": "the Lord",
+                                "1979": "the Lord",
+                                "KJV": "the Lord"
+                            },
+                            "part": "noun",
+                            "root": "dominus",
+                            "meaning": "the lord",
+                            "acceptable answers": [
+                                "lord"
+                            ],
+                            "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
+                            "parse": {
+                                "case": "accusative",
+                                "number": "singular",
+                                "gender": "masculine"
+                            }
+                        },
+                        "5": {
+                            "text": "omnes",
+                            "translation": {
+                                "duay": "all ye",
+                                "coverdale": "all ye",
+                                "new coverdale": "all you",
+                                "knox": "all you",
+                                "1979": "all you",
+                                "KJV": "all ye"
+                            },
+                            "part": "adjective",
+                            "root": "omnis",
+                            "meaning": "all you",
+                            "acceptable answers": [
+                                "y'all",
+                                "you all",
+                                "ye all",
+                                "all you",
+                                "all y'all"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "vocative",
+                                "number": "plural",
+                                "gender": "masculine",
+                                "modifies": "servi"
+                            }
+                        },
+                        "6": {
+                            "text": "servi",
+                            "translation": {
+                                "duay": "servants of the Lord",
+                                "coverdale": "servants of the Lord",
+                                "new coverdale": "servants of the Lord",
+                                "knox": "the Lord's servants",
+                                "1979": "servants of the Lord",
+                                "KJV": "servants of the Lord"
+                            },
+                            "part": "noun",
+                            "root": "servus",
+                            "meaning": "servants",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {
+                                "case": "vocative",
+                                "number": "plural",
+                                "gender": "masculine"
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "text": "Qui statis in domo Domini,",
+                    "translation": {
+                        "duay": "Who stand in the house of the Lord,",
+                        "coverdale": "Ye that... stand in the house of the LORD",
+                        "new coverdale": "You that... stand in the house of the Lord",
+                        "knox": "you that wait on the Lord's house",
+                        "1979": "You that... stand in the house of the LORD",
+                        "KJV": "which... stand in the house of the Lord"
+                    },
+                    "word": {
+                        "1": {
+                            "text": "qui",
+                            "translation": {
+                                "duay": "Who",
+                                "coverdale": "Ye",
+                                "new coverdale": "You",
+                                "knox": "you",
+                                "1979": "You",
+                                "KJV": "which"
+                            },
+                            "part": "pronoun",
+                            "root": "qui",
+                            "meaning": "who",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {
+                                "case": "nominative",
+                                "number": "plural",
+                                "gender": "masculine",
+                                "antecedent": "servi"
+                            }
+                        },
+                        "2": {
+                            "text": "statis",
+                            "translation": {
+                                "duay": "stand",
+                                "coverdale": "stand",
+                                "new coverdale": "stand",
+                                "knox": "wait",
+                                "1979": "stand",
+                                "KJV": "stand"
+                            },
+                            "part": "verb",
+                            "root": "sto",
+                            "meaning": "stand",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {
+                                "person": "2",
+                                "number": "plural",
+                                "tense": "present",
+                                "mood": "indicative",
+                                "voice": "active"
+                            }
+                        },
+                        "3": {
+                            "text": "in",
+                            "translation": {
+                                "duay": "in",
+                                "coverdale": "in",
+                                "new coverdale": "in",
+                                "knox": "on",
+                                "1979": "in",
+                                "KJV": "in"
+                            },
+                            "part": "preposition",
+                            "root": "in",
+                            "meaning": "in",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {}
+                        },
+                        "4": {
+                            "text": "domo",
+                            "translation": {
+                                "duay": "house",
+                                "coverdale": "house",
+                                "new coverdale": "house",
+                                "knox": "house",
+                                "1979": "house",
+                                "KJV": "house"
+                            },
+                            "part": "noun",
+                            "root": "domus",
+                            "meaning": "home",
+                            "acceptable answers": [
+                                "house"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "ablative",
+                                "number": "singular",
+                                "gender": "feminine"
+                            }
+                        },
+                        "5": {
+                            "text": "domini",
+                            "translation": {
+                                "duay": "of the Lord",
+                                "coverdale": "of the LORD",
+                                "new coverdale": "of the Lord",
+                                "knox": "the Lord's",
+                                "1979": "of the LORD",
+                                "KJV": "of the Lord"
+                            },
+                            "part": "noun",
+                            "root": "dominus",
+                            "meaning": "of the Lord",
+                            "acceptable answers": [
+                                "of the lord",
+                                "of the lrod"
+                            ],
+                            "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "text": "in atriis domus Dei nostri.",
+                    "translation": {
+                        "duay": "in the courts of the house of our God.",
+                        "coverdale": "even in the courts of the house of our God.",
+                        "new coverdale": "even in the courts of the house of our God.",
+                        "knox": "",
+                        "1979": "",
+                        "KJV": ""
+                    },
+                    "word": {
+                        "1": {
+                            "text": "in",
+                            "translation": {
+                                "duay": "in",
+                                "coverdale": "in",
+                                "new coverdale": "in",
+                                "knox": "",
+                                "1979": "",
+                                "KJV": ""
+                            },
+                            "part": "preposition",
+                            "root": "in",
+                            "meaning": "in",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {}
+                        },
+                        "2": {
+                            "text": "atriis",
+                            "translation": {
+                                "duay": "the courts",
+                                "coverdale": "the courts",
+                                "new coverdale": "the courts",
+                                "knox": "",
+                                "1979": "",
+                                "KJV": ""
+                            },
+                            "part": "noun",
+                            "root": "atrium",
+                            "meaning": "the courts",
+                            "acceptable answers": [],
+                            "unacceptable answers": {
+                                "court": "'Court' is singular. 'atriis' is plural.",
+                                "the court": "'Court' is singular. 'atriis' is plural."
+                            },
+                            "derivative": "literally the word 'atrium', in Roman architecture, the open central court with enclosed rooms on all sides. Analogous today to a vestibule, or in church architecture, perhaps to a narthex.",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "3": {
+                            "text": "domus",
+                            "translation": {
+                                "duay": "of the house",
+                                "coverdale": "of the house",
+                                "new coverdale": "of the house",
+                                "knox": "",
+                                "1979": "",
+                                "KJV": ""
+                            },
+                            "part": "noun",
+                            "root": "domus",
+                            "meaning": "home",
+                            "acceptable answers": [
+                                "house"
+                            ],
+                            "derivative": "Where we get 'domestic', and 'domicile'",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "4": {
+                            "text": "dei",
+                            "translation": {
+                                "duay": "of God",
+                                "coverdale": "of God",
+                                "new coverdale": "of God",
+                                "knox": "",
+                                "1979": "",
+                                "KJV": ""
+                            },
+                            "part": "noun",
+                            "root": "deus",
+                            "meaning": "God",
+                            "acceptable answers": [
+                                "god"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "5": {
+                            "text": "nostri",
+                            "translation": {
+                                "duay": "our",
+                                "coverdale": "our",
+                                "new coverdale": "our",
+                                "knox": "",
+                                "1979": "",
+                                "KJV": ""
+                            },
+                            "part": "adjective",
+                            "root": "noster",
+                            "meaning": "our",
+                            "acceptable answers": [
+                                "our"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": "",
+                                "modifies": ""
+                            }
+                        }
+                    }
+                }
+            }
         },
-        "part": "noun"
-    },
-    "coelum": {
-        "meaning": "heaven",
-        "acceptable answers": ["sky"],
-        "etymology": "",
-        "derivatives": {
-            "celestial": "heavenly"
+        "2": {
+            "text": "In noctibus extollite manus vestras in sancta,\net benedicite Dominum.\n",
+            "translation": {
+                "duay": "In the nights lift up your hands to the holy places, and bless ye the Lord.",
+                "coverdale": "by night... Lift up your hands in the sanctuary, and praise the LORD.",
+                "new coverdale": "by night... Lift up your hands in the sanctuary and sing praises unto the Lord.",
+                "knox": "at midnight, lift up your hands towards the sanctuary and bless the Lord.",
+                "1979": "by night... Lift up your hands in the holy place and bless the LORD;",
+                "KJV": "by night... Lift up your hands in the sanctuary, and bless the Lord."
+            },
+            "division": {
+                "1": {
+                    "text": "In noctibus extollite manus vestras in sancta,",
+                    "translation": {
+                        "duay": "In the nights lift up your hands to the holy places,",
+                        "coverdale": "by night... Lift up your hands in the sanctuary,",
+                        "new coverdale": "by night... Lift up your hands in the sanctuary",
+                        "knox": "at midnight, lift up your hands towards the sanctuary",
+                        "1979": "by night... Lift up your hands in the holy place",
+                        "KJV": "by night... Lift up your hands in the sanctuary,"
+                    },
+                    "word": {
+                        "1": {
+                            "text": "in noctibus",
+                            "translation": {
+                                "duay": "in the nights",
+                                "coverdale": "by night",
+                                "new coverdale": "by night",
+                                "knox": "at midnight",
+                                "1979": "by night",
+                                "KJV": "by night"
+                            },
+                            "part": "prepositional phrase",
+                            "root": "nox",
+                            "meaning": "in the nights",
+                            "acceptable answers": [
+                                "by night",
+                                "at night",
+                                "nightly",
+                                "at midnight"
+                            ],
+                            "derivative": "'nocturnal,' meaning 'done at night'",
+                            "parse": {}
+                        },
+                        "2": {
+                            "text": "extollite",
+                            "translation": {
+                                "duay": "lift up",
+                                "coverdale": "Lift up",
+                                "new coverdale": "Lift up",
+                                "knox": "lift up",
+                                "1979": "Lift up",
+                                "KJV": "Lift up"
+                            },
+                            "part": "verb",
+                            "root": "extollo",
+                            "meaning": "lift up",
+                            "acceptable answers": [],
+                            "derivative": "'Extol', which literally means 'to make high,' but more commonly is used 'to praise,' as in, you make a person higher by praising them.",
+                            "parse": {
+                                "person": "2",
+                                "number": "plural",
+                                "tense": "present",
+                                "mood": "imperative",
+                                "voice": "active"
+                            }
+                        },
+                        "3": {
+                            "text": "manus",
+                            "translation": {
+                                "duay": "hands",
+                                "coverdale": "hands",
+                                "new coverdale": "hands",
+                                "knox": "hands",
+                                "1979": "hands",
+                                "KJV": "hands"
+                            },
+                            "part": "noun",
+                            "root": "manus",
+                            "meaning": "hands",
+                            "acceptable answers": [],
+                            "unacceptable answers": {
+                                "hand": "'hand' is singular. 'manus' is plural.",
+                                "the hand": "'hand' is singular. 'manus' is plural.",
+                                "your hand": "'hand' is singular. 'manus' is plural."
+                            },
+                            "derivative": "'Manual,' meaning 'with the hands'",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "4": {
+                            "text": "vestras",
+                            "translation": {
+                                "duay": "your",
+                                "coverdale": "your",
+                                "new coverdale": "your",
+                                "knox": "your",
+                                "1979": "your",
+                                "KJV": "your"
+                            },
+                            "part": "adjective",
+                            "root": "vester",
+                            "meaning": "your",
+                            "acceptable answers": [
+                                "y'all's"
+                            ],
+                            "unacceptable answers": {
+                                "thy": "'thy' is singular. 'vestras' is plural."
+                            },
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": "",
+                                "modifies": ""
+                            }
+                        },
+                        "5": {
+                            "text": "in sancta",
+                            "translation": {
+                                "duay": "to the holy places",
+                                "coverdale": "in the sanctuary",
+                                "new coverdale": "in the sanctuary",
+                                "knox": "towards the sanctuary",
+                                "1979": "in the holy place",
+                                "KJV": "in the sanctuary"
+                            },
+                            "part": "prepositional phrase",
+                            "root": "sanctus",
+                            "meaning": "in the holy place",
+                            "acceptable answers": [
+                                "in the holy places"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "text": "et benedicite Dominum.",
+                    "translation": {
+                        "duay": "and bless ye the Lord.",
+                        "coverdale": "and praise the LORD.",
+                        "new coverdale": "and sing praises unto the Lord.",
+                        "knox": "and bless the Lord.",
+                        "1979": "bless the LORD;",
+                        "KJV": "and bless the Lord."
+                    },
+                    "word": {
+                        "1": {
+                            "text": "et",
+                            "translation": {
+                                "duay": "and",
+                                "coverdale": "and",
+                                "new coverdale": "and",
+                                "knox": "and",
+                                "1979": "and",
+                                "KJV": "and"
+                            },
+                            "part": "conjunction",
+                            "root": "et",
+                            "meaning": "and",
+                            "acceptable answers": [
+                                "&"
+                            ],
+                            "derivative": "We get the ampersand from 'et'-- which is really just those two letters squished together: &",
+                            "parse": {}
+                        },
+                        "2": {
+                            "text": "benedicite",
+                            "translation": {
+                                "duay": "bless ye",
+                                "coverdale": "praise",
+                                "new coverdale": "sing praises unto",
+                                "knox": "bless",
+                                "1979": "bless",
+                                "KJV": "bless"
+                            },
+                            "part": "verb",
+                            "root": "benedico",
+                            "meaning": "bless",
+                            "acceptable answers": [
+                                "sing praises",
+                                "give blessings"
+                            ],
+                            "derivative": "From 'bene' ('good') + 'dico' ('speak'), as in 'benediction'-- a good word, a blessing.",
+                            "parse": {
+                                "person": "2",
+                                "number": "plural",
+                                "tense": "present",
+                                "mood": "imperative",
+                                "voice": "active"
+                            }
+                        },
+                        "3": {
+                            "text": "dominum",
+                            "translation": {
+                                "duay": "the Lord",
+                                "coverdale": "the Lord",
+                                "new coverdale": "the Lord",
+                                "knox": "the Lord",
+                                "1979": "the Lord",
+                                "KJV": "the Lord"
+                            },
+                            "part": "noun",
+                            "root": "dominus",
+                            "meaning": "the Lord",
+                            "acceptable answers": [
+                                "Lord",
+                                "lord",
+                                "the lord"
+                            ],
+                            "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        }
+                    }
+                }
+            }
         },
-        "part": "noun"
-    },
-    "benedico": {
-        "meaning": "bless",
-        "acceptable answers": ["praise"],
-        "etymology": "From 'bene' ('good') + 'dico' ('speak')",
-        "derivatives": {
-            "benediction": "a blessing"
-        },
-        "part": "verb"
-    },
-    "dominus": {
-        "meaning": "lord",
-        "acceptable answers": [],
-        "etymology": "Likely from 'domo' ('house'), as in, 'of the house.'",
-        "derivatives": {
-            "dominion" : "sovereignty, control, authority"
-        },
-        "part": "noun"
-    },
-    "et": {
-        "meaning": "and",
-        "acceptable answers": ["&"],
-        "etymology": "",
-        "derivatives": {
-            "&": "the combination of the letters 'e' and 't'"
-        },
-        "part": "conjunction"
-    },
-    "atrium": {
-        "meaning": "court",
-        "acceptable answers": ["atrium"],
-        "etymology": "",
-        "derivatives": {
-            "atrium": "in Roman architecture, the open central court with enclosed rooms on all sides. Analogous today to a vestibule, or in church architecture, perhaps to a narthex."
-        },
-        "part": "noun"
-    },
-    "manus": {
-        "meaning": "hand",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {
-            "manual" : "relating to or done with the hands"
-        },
-        "part": "noun"
-    },
-    "deus": {
-        "meaning": "God",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "noun"
-    },
-    "sanctus": {
-        "meaning": "holy",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "adjective"
-    },
-    "tu": {
-        "meaning": "you",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "pronoun"
-    },
-    "facio": {
-        "meaning": "make",
-        "acceptable answers": ["do"],
-        "etymology": "",
-        "derivatives": {},
-        "part": "verb"
-    },
-    "extollo": {
-        "meaning": "lift up",
-        "acceptable answers": ["lift", "raise", "raise up", "elevate", "erect", "make high"],
-        "etymology": "From 'ex-' (out of) + 'tollō'.",
-        "derivatives": {
-            "extol": "literally, 'to make high,' but more commonly is used 'to praise,' as in, you make a person higher by praising them."
-        },
-        "part": "verb"
-    },
-    "terra": {
-        "meaning": "earth",
-        "acceptable answers": ["ground", "land"],
-        "etymology": "",
-        "derivatives": {
-            "terrestrial": "of, on, or relating to the earth or dry land"
-        },
-        "part": "noun"
-    },
-    "ecce": {
-        "meaning": "behold",
-        "acceptable answers": ["lo"],
-        "etymology": "Probably from 'ec-,' a prefix denoting intense feeling, and '-ce,' a suffix denoting a physical place",
-        "derivatives": {},
-        "part": "interjection"
-    },
-    "sto": {
-        "meaning": "stand",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {
-            "static": "lacking in movement, action, or change"
-        },
-        "part": "verb"
-    },
-    "sion": {
-        "meaning": "Sion",
-        "acceptable answers": ["Zion", "Syon"],
-        "etymology": "A synonym for Jerusalem, as well as for the Land of Israel as a whole.",
-        "derivatives": {},
-        "part": "noun"
-    },
-    "vester": {
-        "meaning": "your",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "adjective"
-    },
-    "in": {
-        "meaning": "in",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "preposition"
-    },
-    "servus": {
-        "meaning": "servant",
-        "acceptable answers": ["slave"],
-        "etymology": "",
-        "derivatives": {},
-        "part": ""
-    },
-    "noster": {
-        "meaning": "our",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "adjective"
-    },
-    "nunc": {
-        "meaning": "now",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "adverb"
-    },
-    "nox": {
-        "meaning": "night",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {
-            "nocturnal": "done, occurring, or active at night"
-        },
-        "part": "noun"
-    },
-    "ex": {
-        "meaning": "out of",
-        "acceptable answers": ["out"],
-        "etymology": "",
-        "derivatives": {},
-        "part": "preposition"
-    },
-    "qui": {
-        "meaning": "who",
-        "acceptable answers": ["which"],
-        "etymology": "",
-        "derivatives": {},
-        "part": "pronoun"
-    },
-    "omnis": {
-        "meaning": "all",
-        "acceptable answers": [],
-        "etymology": "",
-        "derivatives": {},
-        "part": "adjective"
+        "3": {
+            "text": "Benedicat te Dominus ex Sion,\nqui fecit coelum et terram.",
+            "translation": {
+                "duay": "May the Lord out of Sion bless thee, he that made heaven and earth.",
+                "coverdale": "The LORD that made heaven and earth give thee blessing out of Sion.",
+                "new coverdale": "The Lord who made heaven and earth give you blessing out of Zion.",
+                "knox": "May the Lord who dwells in Sion bless thee, the Lord who made heaven and earth!\n",
+                "1979": "the LORD who made heaven and earth bless you out of Zion.",
+                "KJV": "The Lord that made heaven and earth bless thee out of Zion."
+            },
+            "division": {
+                "1": {
+                    "text": "Benedicat te Dominus ex Sion,",
+                    "translation": {
+                        "duay": "May the Lord out of Sion bless thee,",
+                        "coverdale": "The LORD... give thee blessing out of Sion.",
+                        "new coverdale": "The LORD... give you blessing out of Sion.",
+                        "knox": "May the Lord who dwells in Sion bless thee,",
+                        "1979": "the LORD... bless you out of Zion.",
+                        "KJV": "The Lord... bless thee out of Zion."
+                    },
+                    "word": {
+                        "1": {
+                            "text": "benedicat",
+                            "translation": {
+                                "duay": "bless",
+                                "coverdale": "give blessing",
+                                "new coverdale": "give blessing",
+                                "knox": "bless",
+                                "1979": "bless",
+                                "KJV": "bless"
+                            },
+                            "part": "verb",
+                            "root": "benedico",
+                            "meaning": "bless",
+                            "acceptable answers": [
+                                "bless"
+                            ],
+                            "derivative": "From 'bene' ('good') + 'dico' ('speak'), as in 'benediction'-- a good word, a blessing.",
+                            "parse": {
+                                "person": "3",
+                                "number": "singular",
+                                "tense": "present",
+                                "mood": "subjunctive",
+                                "voice": "active"
+                            }
+                        },
+                        "2": {
+                            "text": "te",
+                            "translation": {
+                                "duay": "thee",
+                                "coverdale": "thee",
+                                "new coverdale": "you",
+                                "knox": "thee",
+                                "1979": "you",
+                                "KJV": "thee"
+                            },
+                            "part": "noun",
+                            "root": "tu",
+                            "meaning": "thee",
+                            "acceptable answers": [
+                                "you"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "3": {
+                            "text": "dominus",
+                            "translation": {
+                                "duay": "the Lord",
+                                "coverdale": "The Lord",
+                                "new coverdale": "the Lord",
+                                "knox": "the Lord",
+                                "1979": "the LORD",
+                                "KJV": "The Lord"
+                            },
+                            "part": "noun",
+                            "root": "dominus",
+                            "meaning": "the Lord",
+                            "acceptable answers": [
+                                "lord",
+                                "the lord"
+                            ],
+                            "derivative": "Likely from 'domo' ('house'), as in, 'of the house.' Where we get 'dominion.'",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "4": {
+                            "text": "ex",
+                            "translation": {
+                                "duay": "out of",
+                                "coverdale": "out of",
+                                "new coverdale": "out of",
+                                "knox": "who dwells in",
+                                "1979": "out of",
+                                "KJV": "out of"
+                            },
+                            "part": "preposition",
+                            "root": "ex",
+                            "meaning": "out of",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {}
+                        },
+                        "5": {
+                            "text": "sion",
+                            "translation": {
+                                "duay": "Sion",
+                                "coverdale": "Sion",
+                                "new coverdale": "Zion",
+                                "knox": "Sion",
+                                "1979": "Zion",
+                                "KJV": "Zion"
+                            },
+                            "part": "noun",
+                            "root": "sion",
+                            "meaning": "Sion",
+                            "acceptable answers": [
+                                "sion"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "text": "qui fecit coelum et terram.",
+                    "translation": {
+                        "duay": "he that made heaven and earth.",
+                        "coverdale": "The LORD that made heaven and earth",
+                        "new coverdale": "The Lord who made heaven and earth",
+                        "knox": "the Lord who made heaven and earth!",
+                        "1979": "the LORD who made heaven and earth.",
+                        "KJV": "The Lord that made heaven and earth."
+                    },
+                    "word": {
+                        "1": {
+                            "text": "qui",
+                            "translation": {
+                                "duay": "he that",
+                                "coverdale": "The LORD that",
+                                "new coverdale": "who",
+                                "knox": "who",
+                                "1979": "who",
+                                "KJV": "The Lord that"
+                            },
+                            "part": "pronoun",
+                            "root": "qui",
+                            "meaning": "who",
+                            "acceptable answers": [
+                                "who"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": "",
+                                "antecedent": ""
+                            }
+                        },
+                        "2": {
+                            "text": "fecit",
+                            "translation": {
+                                "duay": "made",
+                                "coverdale": "made",
+                                "new coverdale": "made",
+                                "knox": "made",
+                                "1979": "made",
+                                "KJV": "made"
+                            },
+                            "part": "verb",
+                            "root": "facio",
+                            "meaning": "made",
+                            "acceptable answers": [
+                                "made"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "person": "3",
+                                "number": "singular",
+                                "tense": "perfect",
+                                "mood": "indicative",
+                                "voice": "active"
+                            }
+                        },
+                        "3": {
+                            "text": "coelum",
+                            "translation": {
+                                "duay": "heaven",
+                                "coverdale": "heaven",
+                                "new coverdale": "heaven",
+                                "knox": "heaven",
+                                "1979": "heaven",
+                                "KJV": "heaven"
+                            },
+                            "part": "noun",
+                            "root": "coelum",
+                            "meaning": "heaven",
+                            "acceptable answers": [
+                                "heaven"
+                            ],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        },
+                        "4": {
+                            "text": "et",
+                            "translation": {
+                                "duay": "and",
+                                "coverdale": "and",
+                                "new coverdale": "and",
+                                "knox": "and",
+                                "1979": "and",
+                                "KJV": "and"
+                            },
+                            "part": "conjunction",
+                            "root": "et",
+                            "meaning": "and",
+                            "acceptable answers": [
+                                "&",
+                                "and"
+                            ],
+                            "derivative": "We get the ampersand from 'et'-- which is really just those two letters squished together: &",
+                            "parse": {}
+                        },
+                        "5": {
+                            "text": "terram",
+                            "translation": {
+                                "duay": "earth",
+                                "coverdale": "earth",
+                                "new coverdale": "earth",
+                                "knox": "earth",
+                                "1979": "earth",
+                                "KJV": "earth"
+                            },
+                            "part": "noun",
+                            "root": "terra",
+                            "meaning": "earth",
+                            "acceptable answers": [],
+                            "derivative": "",
+                            "parse": {
+                                "case": "",
+                                "number": "",
+                                "gender": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
